@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MOMENTUM</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="wrap">
+    <h2 class="date">00-00-00</h2>
+    <h1 class="clock">00:00:00</h1>
+    <p class="login_p hidden">Hello</p>
+    <button class="logout hidden">로그아웃</button>
+    <form id="loginForm">
+      <input type="text" placeholder="Type your name here" required>
+      <!-- <button class="login">로그인</button> -->
+    </form>
+    <!-- <button class="mode">테마모드</button> -->
+    <div class="tdlist">
+      <p>TODAY</p>
+      <form id="todoForm">
+        <input type="text" placeholder="할 일을 많이 입력하셔도 됩니다" required>
+      </form>
+      <ul id="todoList"></ul>
+    </div>
+    <p class="quote">
+      <span>명언</span>
+      <span>지은이</span>
+    </p>
+  </div>
+  <script src="./script/bg_change.js"></script>
+  <script src="./script/login.js"></script>
+  <script src="./script/quotes.js"></script>
+  <script src="./script/clock.js"></script>
+  <!-- <script src="./script/mode.js"></script> -->
+  <script src="./script/todolist.js"></script>
+  <script src="./script/weather.js"></script>
+</body>
+</html>

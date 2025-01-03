@@ -1,0 +1,155 @@
+@charset "utf-8";
+
+*{margin: 0; 
+  padding: 0;
+  color: white;
+}
+li{
+  list-style: none;
+}
+:root{
+  --background-light: #fff;
+  --background-dark: #121212;
+  --text-light: #000;
+  --text-dark: #eee;
+}
+body{
+  font-family: "Jua", serif;
+  font-family: "Comic Neue", serif;
+  background-color: var(--background-light);
+  color: var(--text-light);
+}
+body.dark{
+  background-color: var(--background-dark);
+  color: var(--text-dark);
+}
+.wrap{
+  /* background-image: url(./back_img/purpleflower.png); */
+  background-size: cover;
+  height: 100vh;
+}
+.date{
+  font-size: 30px;
+  position: absolute;
+  top: 10px;  
+  right: 10px; 
+  font-size: 35px; 
+  font-weight: bold; 
+
+}
+h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.clock{
+  color: white;
+  font-size: 170px;
+}
+
+/** 로그인 **/
+.wrap >.login_p{
+  font-family: "Jua", serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 55px;
+  color: white;
+}
+#loginForm{
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  text-decoration: underline;
+}
+#loginForm > input{
+  font-family: "Jua", serif;
+  margin-top: 20px;
+  padding-left: 20px;
+  background-color: transparent;
+  color: white;
+  font-size: 55px;
+  outline: none;
+  border: none;
+}
+#loginForm > input::placeholder{
+  font-family: "Comic Neue", serif;
+  color: white;
+  text-align: center;
+}
+.hidden{
+  display: none !important;
+}
+/** 로그아웃 **/
+.wrap > .logout{
+  font-family: "Jua", serif;
+  margin: 20px auto;
+  display: flex;
+  padding: 10px 40px;
+  border: none;
+  border-radius: 7%;
+  opacity: 60%;
+  font-size: 35px;
+  color: #999;
+}
+/** TodoList **/
+.tdlist{
+  margin: 150px auto;
+  width: 300px;
+}
+.tdlist > p{
+  text-align: center;
+  font-size: 60px;
+  font-weight: bold;
+}
+#todoForm{
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  flex-direction: column; 
+
+}
+#todoForm > input{
+  font-family: "Jua", serif;
+  background-color: transparent;
+  font-size: 35px;
+  outline: none;
+  border: none;
+  padding: 10px;
+  width: 80%;
+}
+#todoForm > input::placeholder{
+  font-family: "Jua", serif;
+  color: white;
+  font-size: 20px;
+}
+#todoList{
+  font-family: "Jua", serif;
+  text-align: center;
+  font-size: 30px;
+}
+.todo-btn{
+  width: 25px;
+  height: 25px;
+  color: red;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+input[type=checkbox]:checked + span{
+  text-decoration: line-through;
+}
+/** 오늘의명언 **/
+.quote{
+  font-size: 30px;
+  font-family: "Jua", serif;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
