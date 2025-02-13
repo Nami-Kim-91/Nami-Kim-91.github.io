@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>에어비앤비 클론 사이트</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <h1 class="left">
+        <i class="fa-brands fa-airbnb"></i>
+        <span>airbnb</span>
+      </h1>
+      <div class="center">
+        <ul>
+          <li>숙소</li>
+          <li>체험</li>
+        </ul>
+        <div>
+          <ul>
+            <li>
+              <p>여행지</p>
+              <p>여행지 검색</p>
+            </li>
+            <li>
+              <p>체크인</p>
+              <p>날짜 추가</p>
+            </li>
+            <li>
+              <p>체크아웃</p>
+              <p>날짜 추가</p>
+            </li>
+            <li>
+              <p>여행자</p>
+              <p>게스트 추가</p>
+            </li>
+          </ul>
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+      </div>
+      <div class="right">
+        <p>당신의 공간을 에어비앤비 하세요</p>
+        <i class="fa-solid fa-earth-americas"></i>
+        <ul>
+          <li><i class="fa-solid fa-bars"></i></li>
+          <li><i class="fa-solid fa-circle-user"></i></li>
+        </ul>
+      </div>
+    </header>
+    <div class="mobile-menu">
+      <div class="left">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <div class="txt">
+          <p>어디로 여행가세요?</p>
+          <p>어디든지 · 언제든 일주일 · 게스트 추가</p>
+        </div>
+      </div>
+      <div class="right">
+        <i class="fa-solid fa-sliders"></i>
+      </div>
+    </div>
+    <main>
+      <nav>
+        <div class="btn">
+          <div>&lt;</div>
+          <div>&gt;</div>
+        </div>
+        <div class="icon">
+          <div class="item">
+            <img src="./airbnbimages/airbnb_image01.jpg" alt="이미지1" />
+            <p>캐슬</p>
+          </div>
+          <div class="item">
+            <img src="./airbnbimages/airbnb_image02.jpg" alt="이미지2" />
+            <p>일출</p>
+          </div>
+          <div class="item">
+            <img src="./airbnbimages/airbnb_image03.jpg" alt="이미지3" />
+            <p>수영장</p>
+          </div>
+          <div class="item">
+            <img src="./airbnbimages/airbnb_image04.jpg" alt="이미지4" />
+            <p>갤러리</p>
+          </div>
+          <div class="item">
+            <img src="./airbnbimages/airbnb_image05.jpg" alt="이미지5" />
+            <p>북극</p>
+          </div>
+          <!-- <div class="item">
+            <img src="./airbnbimages/airbnb_image06.jpg" alt="이미지6" />
+            <p>그랜드피아노</p>
+          </div> -->
+          <div class="item">
+            <img src="./airbnbimages/airbnb_image07.jpg" alt="이미지7" />
+            <p>과수원</p>
+          </div>
+          <div class="item">
+            <img src="./airbnbimages/airbnb_image08.jpg" alt="이미지8" />
+            <p>숲속</p>
+          </div>
+          <div class="item">
+            <img src="./airbnbimages/airbnb_image09.jpg" alt="이미지9" />
+            <p>철저한 보안</p>
+          </div>
+          <div class="item">
+            <img src="./airbnbimages/airbnb_image10.jpg" alt="이미지10" />
+            <p>캠핑</p>
+          </div>
+          <div class="item">
+            <img src="./airbnbimages/airbnb_image11.jpg" alt="이미지11" />
+            <p>장애인우대</p>
+          </div>
+        </div>
+        <div class="filter">
+          <i class="fa-solid fa-sliders"></i>
+          <span>필터</span>
+        </div>
+      </nav>
+      <div class="card-list">
+        <div class="card">
+          <div class="card-img">
+            <div class="card-title">
+              <!--<p>게스트선호</p>--> 
+              <p class="view-btn"></p>
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="card-btn">
+              <p>&lt;</p>
+              <p>&gt;</p>
+            </div>
+            <div class="circle">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+          <div class="card-txt">
+            <div class="card-txt1">
+              <p>한국 애월읍, 제주시</p>
+              <p>★4.8</p>
+            </div>
+            <p>Gwakji Beach</p>
+            <p>11월20일~12월5일</p>
+            <p>게스트 한마디 "....."</p>
+            <p><b>￦183,033</b> /박</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-img">
+            <div class="card-title">
+              <!--<p>게스트선호</p>--> 
+              <p class="view-btn"></p>
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="card-btn">
+              <p>&lt;</p>
+              <p>&gt;</p>
+            </div>
+            <div class="circle">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+          <div class="card-txt">
+            <div class="card-txt1">
+              <p>한국 동구, 광주시</p>
+              <p>★4.8</p>
+            </div>
+            <p>꽃티지</p>
+            <p>11월20일~12월5일</p>
+            <p>게스트 한마디 "....."</p>
+            <p><b>￦333,000</b> /박</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-img">
+            <div class="card-title">
+              <!--<p>게스트선호</p>--> 
+              <p class="view-btn"></p>
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="card-btn">
+              <p>&lt;</p>
+              <p>&gt;</p>
+            </div>
+            <div class="circle">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+          <div class="card-txt">
+            <div class="card-txt1">
+              <p>한국, 파주시 </p>
+              <p>★4.3</p>
+            </div>
+            <p>Gwakji Beach</p>
+            <p>11월20일~12월5일</p>
+            <p>게스트 한마디 "....."</p>
+            <p><b>￦148,000</b> /박</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-img">
+            <div class="card-title">
+              <!--<p>게스트선호</p>--> 
+              <p class="view-btn"></p>
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="card-btn">
+              <p>&lt;</p>
+              <p>&gt;</p>
+            </div>
+            <div class="circle">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+          <div class="card-txt">
+            <div class="card-txt1">
+              <p>한국 수성구, 대구광역시</p>
+              <p>★4.8</p>
+            </div>
+            <p>JiSung의 집</p>
+            <p>11월20일~12월5일</p>
+            <p>게스트 한마디 "....."</p>
+            <p><b>￦183,033</b> /박</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-img">
+            <div class="card-title">
+              <!--<p>게스트선호</p>--> 
+              <p class="view-btn"></p>
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="card-btn">
+              <p>&lt;</p>
+              <p>&gt;</p>
+            </div>
+            <div class="circle">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+          <div class="card-txt">
+            <div class="card-txt1">
+              <p>한국 양평시, 경기도</p>
+              <p>★4.1</p>
+            </div>
+            <p>스테이 양평</p>
+            <p>11월20일~12월5일</p>
+            <p>게스트 한마디 "....."</p>
+            <p><b>￦230,000</b> /박</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-img">
+            <div class="card-title">
+              <!--<p>게스트선호</p>--> 
+              <p class="view-btn"></p>
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="card-btn">
+              <p>&lt;</p>
+              <p>&gt;</p>
+            </div>
+            <div class="circle">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+          <div class="card-txt">
+            <div class="card-txt1">
+              <p>한국 농성읍, 강화도</p>
+              <p>★3.8.</p>
+            </div>
+            <p>미꼴</p>
+            <p>11월20일~12월5일</p>
+            <p>게스트 한마디 "....."</p>
+            <p><b>￦99,000</b> /박</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-img">
+            <div class="card-title">
+              <!--<p>게스트선호</p>--> 
+              <p class="view-btn"></p>
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="card-btn">
+              <p>&lt;</p>
+              <p>&gt;</p>
+            </div>
+            <div class="circle">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+          <div class="card-txt">
+            <div class="card-txt1">
+              <p>한국 능서면, 여주시</p>
+              <p>★4.8</p>
+            </div>
+            <p>능선의 아침</p>
+            <p>11월20일~12월5일</p>
+            <p>게스트 한마디 "....."</p>
+            <p><b>￦115,000</b> /박</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-img">
+            <div class="card-title">
+              <!--<p>게스트선호</p>--> 
+              <p class="view-btn"></p>
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="card-btn">
+              <p>&lt;</p>
+              <p>&gt;</p>
+            </div>
+            <div class="circle">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+          <div class="card-txt">
+            <div class="card-txt1">
+              <p>한국 오남읍, 냠양주</p>
+              <p>★2.4</p>
+            </div>
+            <p>GrandMa's House</p>
+            <p>11월20일~12월5일</p>
+            <p>게스트 한마디 "....."</p>
+            <p><b>￦89,000</b> /박</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-img">
+            <div class="card-title">
+              <!--<p>게스트선호</p>--> 
+              <p class="view-btn"></p>
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="card-btn">
+              <p>&lt;</p>
+              <p>&gt;</p>
+            </div>
+            <div class="circle">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+          <div class="card-txt">
+            <div class="card-txt1">
+              <p>한국 동래구, 춘천시</p>
+              <p>★5.0</p>
+            </div>
+            <p>두정스테이</p>
+            <p>11월20일~12월5일</p>
+            <p>게스트 한마디 "....."</p>
+            <p><b>￦183,033</b> /박</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-img">
+            <div class="card-title">
+              <!--<p>게스트선호</p>--> 
+              <p class="view-btn"></p>
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="card-btn">
+              <p>&lt;</p>
+              <p>&gt;</p>
+            </div>
+            <div class="circle">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div><div class="card-txt">
+            <div class="card-txt1">
+              <p>한국 청수현, 포천시</p>
+              <p>★4.4</p>
+            </div>
+            <p>즐거운 토마토</p>
+            <p>11월20일~12월5일</p>
+            <p>게스트 한마디 "....."</p>
+            <p><b>￦238,900</b> /박</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-img">
+            <div class="card-title">
+              <!--<p>게스트선호</p>--> 
+              <p class="view-btn"></p>
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="card-btn">
+              <p>&lt;</p>
+              <p>&gt;</p>
+            </div>
+            <div class="circle">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+          <div class="card-txt">
+            <div class="card-txt1">
+              <p>한국 화현면, 포천시</p>
+              <p>★4.8</p>
+            </div>
+            <p>낮뜰채</p>
+            <p>11월20일~12월5일</p>
+            <p>게스트 한마디 "....."</p>
+            <p><b>￦125,000</b> /박</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-img">
+            <div class="card-title">
+              <!--<p>게스트선호</p>--> 
+              <p class="view-btn"></p>
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="card-btn">
+              <p>&lt;</p>
+              <p>&gt;</p>
+            </div>
+            <div class="circle">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+          <div class="card-txt">
+            <div class="card-txt1">
+              <p>한국 화정읍, 남양주시</p>
+              <p>★4.8</p>
+            </div>
+            <p>돌아와요 그곳으로</p>
+            <p>11월20일~12월5일</p>
+            <p>게스트 한마디 "....."</p>
+            <p><b>￦155,200</b> /박</p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p>해변 바로 앞 숙소 카테고리 계속 검색하기</p>
+      <p>더보기</p>
+    </footer>
+  </body>
+</html>
