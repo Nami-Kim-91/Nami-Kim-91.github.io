@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Parallax Scroll</title>
+  <style>
+    *{margin: 0; padding: 0;}
+    header,.content{
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    header{
+      background-color: orange;
+    }
+    .one{
+      background-image: url(./background2\ \(1\).jpg);
+      background-size: cover;
+    }
+    .two{
+      background-image: url(./background1\ \(2\).jpg);
+      background-size: cover;
+    }
+    .content{
+      background-attachment: fixed;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Parallax Scroll Example</h1>
+  </header>
+  <section class="content one">
+    <h2>Section-1</h2>
+  </section>
+  <section>
+    <h2>Section-2</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque, laborum! Repellat odit eos quo vitae perferendis architecto fugit, mollitia, eius sed tenetur odio ad, vel doloribus fuga iure quos ipsa.</p>
+  </section>
+  <section class="content two">
+    <h2>Section-3</h2>
+  </section>
+</body>
+</html>
